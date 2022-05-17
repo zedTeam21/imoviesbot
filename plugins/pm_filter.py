@@ -95,10 +95,16 @@ async def next_page(bot, query):
              InlineKeyboardButton(f"📃 Pages {round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
+        btn.append(
+            [InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')]
+        )
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append(
+            [InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')]
+        )
     else:
         btn.append(
             [
@@ -108,7 +114,7 @@ async def next_page(bot, query):
             ],
         )
         btn.append(
-            [InlineKeyboardButton("𝗖𝗹𝗼𝘀𝗲", callback_data="close_data")]
+            [InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')]
         )
     btn.insert(0, [
         InlineKeyboardButton(text="⚠️ 𝐉𝐨𝐢𝐧 𝐌𝐨𝐯𝐢𝐞𝐬 Group ⚠️", url="https://t.me/+gXuMKXOWm1UyOTdl")
@@ -141,8 +147,8 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('♻️ This Movie Not Found my Database ♾♾♾♾♾♾♾♾♾♾♾♾♾♾ ♻️ Request to admin 👉 @m_admins')
-            await asyncio.sleep(15)
+            k = await query.message.edit('This Movie Not Found In DataBase')
+            await asyncio.sleep(10)
             await k.delete()
 
 
@@ -679,9 +685,15 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text=f"🌹 𝗣𝗮𝗴𝗲 1/{round(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
+        btn.append(
+            [InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')]
+        )
     else:
         btn.append(
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
+        )
+        btn.append(
+            [InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')]
         )
     btn.insert(0, [
         InlineKeyboardButton(text="⚠️ 𝐉𝐨𝐢𝐧 𝐌𝐨𝐯𝐢𝐞𝐬 𝙂𝙧𝙤𝙪𝙥 ⚠️", url="https://t.me/+gXuMKXOWm1UyOTdl")
