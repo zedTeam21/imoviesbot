@@ -95,15 +95,10 @@ async def next_page(bot, query):
              InlineKeyboardButton(f"📃 Pages {round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
-        btn.append(
-            [InlineKeyboardButton("💢 𝗖𝗹𝗼𝘀𝗲 💢", callback_data="close_data")]
-        )
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
-        btn.append(
-            [InlineKeyboardButton("💢 𝗖𝗹𝗼𝘀𝗲 💢", callback_data="close_data")]
         )
     else:
         btn.append(
@@ -112,9 +107,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
-        )
-        btn.append(
-            [InlineKeyboardButton("💢 𝗖𝗹𝗼𝘀𝗲 💢", callback_data="close_data")]
         )
     btn.insert(0, [
         InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
@@ -685,15 +677,9 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text=f"🌹 𝗣𝗮𝗴𝗲 1/{round(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
-        btn.append(
-            [InlineKeyboardButton("💢 𝗖𝗹𝗼𝘀𝗲 💢", callback_data="close_data")]
-        )
     else:
         btn.append(
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
-        )
-        btn.append(
-            [InlineKeyboardButton("💢 𝗖𝗹𝗼𝘀𝗲 💢", callback_data="close_data")]
         )
     btn.insert(0, [
         InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
