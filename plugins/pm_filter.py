@@ -743,7 +743,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Hey, <b>{msg.from_user.mention} Here is what i found for your query 👉 {search} 👈</b>"
+        cap = f"<b>Hey, {msg.from_user.mention} Here is what i found for your query 👉 {search}</b>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -802,7 +802,7 @@ async def advantage_spell_chok(msg):
             ]
         ]
     )
-        k = await msg.reply(f"<b>Hey, {msg.from_user.mention}.. Your word {search} is No Movie/Series Related to the Given Word Was Found 🥺\n<s>Please Go to Google and Confirm the Correct Spelling</b> 🥺🙏", reply_markup=hmm)
+        k = await msg.reply(f"<b>Hey, {msg.from_user.mention}.. Your word 👉 {search} 👈 is No Movie/Series Related to the Given Word Was Found 🥺\n<s>Please Go to Google and Confirm the Correct Spelling</b> 🥺🙏", reply_markup=hmm)
         await asyncio.sleep(120)
         await k.delete()
         return
