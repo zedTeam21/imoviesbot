@@ -802,9 +802,9 @@ async def advantage_spell_chok(msg):
             ]
         ]
     )
-        k = await msg.reply(f"<b>Hey, {msg.from_user.mention}...😳 \n\nYour word 👉 {search} 👈 is No Movie/Series Related to the Given Word Was Found 🥺\n<s>Please Go to Google and Confirm the Correct Spelling</b> 🥺🙏", reply_markup=hmm)
+        b = await msg.reply(f"<b>Hey, {msg.from_user.mention}... \n\nYour word 👉 {search} 👈 is No Movie/Series Related to the Given Word Was Found 🥺\n<s>Please Go to Google and Confirm the Correct Spelling</b> 🥺🙏", reply_markup=hmm)
         await asyncio.sleep(120)
-        await k.delete()
+        await b.delete()
         return
     SPELL_CHECK[msg.message_id] = movielist
     btn = [[
