@@ -442,11 +442,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='extra')
         ], [
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
+            InlineKeyboardButton('⚡️ SONGS ⚡️', callback_data='songs'),
             InlineKeyboardButton('⚚ 𝗦𝘁𝗮𝘁𝘀 ⚚', callback_data='stats')
         ], [
             InlineKeyboardButton('⚡️ 𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃 ⚡️', callback_data='urlshort'),
             InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('⚡️ 𝚈𝚃-𝚃𝙷𝚄𝙼𝙱 ⚡️', callback_data='ytthumb')
+            ],[
+            InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -465,6 +468,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik')
         ], [
             InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik'),
+        ], [
+            InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -490,6 +495,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.VIDEO_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "songs":
+        buttons = [[
+            InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SONG_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
