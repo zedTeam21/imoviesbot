@@ -48,15 +48,17 @@ async def start(client, message):
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette'),
+            ],[
+            InlineKeyboardButton('🚀 Download YouTube video 🛰', callback_data='videos')
+            ],[
+            InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
@@ -98,7 +100,6 @@ async def start(client, message):
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -107,6 +108,10 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette'),
+            ],[
+            InlineKeyboardButton('🚀 Download YouTube video 🛰', callback_data='videos')
+            ],[
+            InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel  ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
         ]]
