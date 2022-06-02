@@ -444,6 +444,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚚ 𝗦𝘁𝗮𝘁𝘀 ⚚', callback_data='stats')
         ], [
             InlineKeyboardButton('⚡️ 𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃 ⚡️', callback_data='urlshort'),
+            InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
             InlineKeyboardButton('⚡️ 𝚈𝚃-𝚃𝙷𝚄𝙼𝙱 ⚡️', callback_data='ytthumb')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -459,6 +460,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
+        ], [
+            InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik')
         ], [
             InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik'),
         ]]
