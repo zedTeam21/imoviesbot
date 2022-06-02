@@ -47,8 +47,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🖥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🖥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('🖥 UPDATES 🖥', url='https://t.me/m_house786')
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ Help ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ About ♻️', callback_data='about')
@@ -99,11 +100,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('✳️ Add Me To Your Groups ✳️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💠', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
-            InlineKeyboardButton('💠 UPDATES 💠', url='https://t.me/m_house786')
+            InlineKeyboardButton('🔥 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥', url='https://t.me/+ZeZNvt43B4o3ZmJl'),
+            InlineKeyboardButton('☎️ 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/m_house786')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('🌷Join my group', url='https://t.me/+gXuMKXOWm1UyOTdl'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('Search', switch_inline_query_current_chat=''),
