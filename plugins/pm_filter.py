@@ -451,7 +451,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb')
         ], [
             InlineKeyboardButton('video', callback_data='video'),
-            InlineKeyboardButton('File-Store', callback_data='filestore')
+            InlineKeyboardButton('File-Store', callback_data='malikk')
         ], [
             InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
         ]]
@@ -491,7 +491,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "filestore":
+    elif query.data == "malikk":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help')
         ]]
