@@ -241,4 +241,4 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 <code>/batch https://t.me/gjcjknxz/2 https://t.me/jfksucxhb/8</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/sahid_malik>Sahid malik</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/sahid_nalik>Sahid malik</a></b>"""
