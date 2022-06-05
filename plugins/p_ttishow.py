@@ -53,7 +53,7 @@ async def save_group(bot, message):
                 buttons = [[
                 InlineKeyboardButton('♻️ Contact Owner ♻️', url="https://t.me/sahid_malik"),
                 ],[
-                InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url="https://t.me/m_house786")
+                InlineKeyboardButton('⭕️ Subscribe my YouTube channel ⭕️', url="https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
