@@ -245,7 +245,7 @@ MELCOW_ENG = """<b>Hay 👋 {}.... 🌷 ❤️
 
 😎 welcome to Our Group...
   
-        😎 👉 <s>{}</s> 👈 😎
+      👉 <s>{}</s> 👈 
 
 😎 You Can Find 🔍 Movies / Series / Animes etc. From Here. Enjoy 😉...
 
