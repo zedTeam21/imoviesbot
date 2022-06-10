@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
-from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS
+from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS, MELCOW_VID
 from database.users_chats_db import db
 from database.ia_filterdb import Media
 from utils import get_size, temp, get_settings
-from Script import script
+from Script import script, MELCOW_ENG
 from pyrogram.errors import ChatAdminRequired
 
 """-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it Contact support..</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact support..</b>',
                 reply_markup=reply_markup,
             )
 
@@ -39,33 +39,36 @@ async def save_group(bot, message):
         buttons = [[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('💎 Updates 💎', url='https://t.me/m_house786')
-            ],[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots')
-        ]]
+        ],[InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots')]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me Contact Owner >> @sahid_malik.</b>",
+            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
             for u in message.new_chat_members:
-                buttons = [[
-                InlineKeyboardButton('♻️ Contact Owner ♻️', url="https://t.me/sahid_malik"),
-                ],[
-                InlineKeyboardButton('⭕️ Subscribe my YouTube channel ⭕️', url="https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A")
-            ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_text(
-                text=f"<b>Hey 👋 {u.mention},, Welcome to Our Group 👉 <s>{message.chat.title}</s>..You Can Find Movies / Series / Animes etc. From Here. Enjoy 😉.</b> \n\n<b>If you have any question then contact us below 👇</b>",
-                disable_web_page_preview = True,
-                reply_markup=InlineKeyboardMarkup(buttons))
-    await asyncio.sleep(20)
-    await m.delete()
+                temp.MELCOW['welcome'] = await message.reply_photo(
+                                                 photo=(MELCOW_VID),
+                                                 caption=(MELCOW_ENG.format(u.mention, message.chat.title)),
+                                                 reply_markup=InlineKeyboardMarkup(
+                                                                         [[
+                                                                           InlineKeyboardButton('♻️ Contact Owner ♻️', url="https://t.me/sahid_malik")
+                                                                           ],[
+                                                                           InlineKeyboardButton('⭕️ Subscribe my YouTube channel ⭕️', url="https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A")
+                                                                         
+                                                                         ]]
+                                                 ),
+                                                 parse_mode='html'
+)
+                
+               
+
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
