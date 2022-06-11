@@ -420,8 +420,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Search inline', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ Donation ❤️', callback_data='dinette')
             ],[
-            InlineKeyboardButton('🚀 Download YouTube video 🛰', callback_data='videos')
-            ],[
             InlineKeyboardButton('🔗 Url Shortner 🔗', callback_data='urlshortn')
             ],[
             InlineKeyboardButton('✅ Subscribe my YouTube channel ✅', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
@@ -529,17 +527,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.URLSHORTN_TXT,
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-    elif query.data == "videos":
-        buttons = [[
-            InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='start')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.VIDEOS_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
