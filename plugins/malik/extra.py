@@ -49,7 +49,7 @@ def song(client, message):
         open(thumb_name, 'wb').write(thumb.content)
 
 
-        performer = f"[movies 🏠]" 
+        performer = f"[movies 🏠 bot]" 
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
@@ -60,13 +60,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("**<b>dσwnlσαdíng Your ѕσng plz wait 3 minutes</b>...!**")
+    m.edit("**Dσwnlσαdíng Your ѕσng plz wait 3 minutes...!**")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [YouTube channel](https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [Sahid malik](https://t.me/sahid_malik)**'
+        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [Movies 🏠](https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [Movies 🏠](https://t.me/sahid_malik)**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -100,7 +100,7 @@ async def vsong(client, message: Message):
     urlissed = get_text(message)
 
     pablo = await client.send_message(
-        message.chat.id, f"**Finding Your Video plz wait** `{urlissed}`"
+        message.chat.id, f"**FINDING YOUR VIDEO PLZ WAIT** `{urlissed}`"
     )
     if not urlissed:
         await pablo.edit("Invalid Command Syntax Please Check help Menu To Know More!")
@@ -113,7 +113,7 @@ async def vsong(client, message: Message):
     thum = mio[0]["title"]
     fridayz = mio[0]["id"]
     mio[0]["channel"]
-    kekme = f"https://img.mxplayer.com/vi/{fridayz}/hqdefault.jpg"
+    kekme = f"https://img.youtube.com/vi/{fridayz}/hqdefault.jpg"
     await asyncio.sleep(0.6)
     url = mo
     sedlyf = wget.download(kekme)
@@ -138,10 +138,8 @@ async def vsong(client, message: Message):
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
     capy = f"""
-**𝚃𝙸𝚃𝙻𝙴 :** <b>[{thum}]({mo})</b>
-**𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 :** <b>{message.from_user.mention}</b>
-
-**<b>𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [Sahid malik](https://t.me/sahid_malik)</b>
+**𝚃𝙸𝚃𝙻𝙴 :** [{thum}]({mo})
+**𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 :** {message.from_user.mention}
 """
     await client.send_video(
         message.chat.id,
