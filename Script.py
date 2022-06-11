@@ -246,7 +246,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 ⭕️ USERNAME: @sahid_malik
 ⭕️PERMANENT DM LINK : <a href=https://t.me/sahid_malik>CLICK Here</a></b>"""
 
-MELCOW_ENG = """<b>Hay 👋 {}.... 🌷 ❤️
+MALIK_PHH = """<b>Hay 👋 {}.... 🌷 ❤️
 
 😎 welcome to Our Group...
   
