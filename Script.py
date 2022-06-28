@@ -307,9 +307,7 @@ CHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE..
 
 दी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें</b> 👇👇👇"""
 
-ADG = """<b>Hay. {}..\n\nThankyou For Adding Me In.. ❣️
-
-          👉 <s>{}</s> 👈 
+ADG = """<b>Hay. {}..\n\nThankyou For Adding Me.. ❣️
 
 If you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>"""
 
