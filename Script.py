@@ -306,3 +306,19 @@ ALURT_FND = """<b>.
 CHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE.. 
 
 दी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें</b> 👇👇👇"""
+
+ADG = """<b>Hay. {}..\n\nThankyou For Adding Me In.. ❣️
+
+          👉 <s>{}</s> 👈 
+
+If you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>"""
+
+ADDG = """<b>Hay {},
+
+I'm ⚡️ Powerful Auto-Filter Bot...
+😎 You Can Use Me As A Auto-filter in Your Group ....
+Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
+⚠️ More Help Check Help Button Below
+
+©️Mantained Bʏ  @sahid_malik</b>"""
+
