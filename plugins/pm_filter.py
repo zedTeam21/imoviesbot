@@ -962,7 +962,7 @@ async def advantage_spell_chok(msg):
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
     m = await msg.reply(f"<b>Hey, {msg.from_user.mention}...😎\n\nCHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE.. \n\n दी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें 👇👇👇</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
-    await asyncio.sleep(600)
+    await asyncio.sleep(60)
     await m.delete()
 
 
