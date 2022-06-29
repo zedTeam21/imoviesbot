@@ -4,11 +4,11 @@ import re
 import ast
 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
-from Script import script, ALURT_FND
+from Script import script, ALURT_FND, M_NT_FND
 import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
-from info import ADMINS, AUTH_CHANNEL, VIDEO_VD, AUTH_USERS, SMART_PIC, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
+from info import ADMINS, AUTH_CHANNEL, VIDEO_VD, AUTH_USERS, M_NT_F, SMART_PIC, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
@@ -138,10 +138,16 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b>♻️ This Movie Not Found my Database \n\n♻️ Request to admin 👉 @m_admins</b>')
-            await asyncio.sleep(15)
-            await k.delete()
-
+           k = await query.message.reply_photo(
+                photo=(M_NT_F),
+                caption=(M_NT_FND),
+                reply_markup=InlineKeyboardMarkup(
+                                        [[
+                                          InlineKeyboardButton('♻️ Request to admin ♻️', url="https://t.me/m_admins")                             
+                                        ]]
+                ),
+                parse_mode='html'
+)
 
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
