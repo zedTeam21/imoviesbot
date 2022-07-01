@@ -60,10 +60,7 @@ async def save_group(bot, message):
                                                  caption=(MALIK_PHH.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('♻️ Contact Owner ♻️', url="https://t.me/sahid_malik")
-                                                                           ],[
                                                                            InlineKeyboardButton('♻️ GROUP RULES ♻️', callback_data='group_rules')
-                                                                         
                                                                          ]]
                                                  ),
                                                  parse_mode='html'
