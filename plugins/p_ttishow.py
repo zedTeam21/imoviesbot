@@ -37,7 +37,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('💎 Updates 💎', url='https://t.me/m_house786')
         ],[InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots')]]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -60,7 +60,7 @@ async def save_group(bot, message):
                                                  caption=(MALIK_PHH.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                                                                           InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
                                                                            ],[
                                                                            InlineKeyboardButton('♻️ GROUP RULES ♻️', callback_data='group_rules')
                                                                          ]]
