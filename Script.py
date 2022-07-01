@@ -295,10 +295,6 @@ MALIK_PHH = """<b>Hay 👋 {}.... 🌷 ❤️
 
 😎 You Can Find 🔍 Movies / Series / Animes etc. From Here. Enjoy 😉...
 
-🙏 Plz do You not request the owner for the movie.. or else you will be blocked directly...⚠️
-
-⚙ If there is any problem with the bot then contact the owner..
-
 If you have any question then contact us below  👇</b>"""
 
 ALURT_FND = """<b>.
@@ -307,7 +303,9 @@ CHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE..
 
 दी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें</b> 👇👇👇"""
 
-ADG = """<b>Hay. {}..\n\nThankyou For Adding Me.. ❣️
+ADG = """<b>Hay. {}..\n\nThankyou For Adding Me In.. ❣️
+
+             👉 <s>{}</s> 👈 
 
 If you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>"""
 
