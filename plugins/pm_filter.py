@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+        InlineKeyboardButton('🙏 SUBSCRIBE MY YT CHANNEL 🙏', url='https://www.youtube.com/channel/UC2_U9WYQaopjXGZ7n9HbN3Q')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -852,7 +852,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+        InlineKeyboardButton('🙏 SUBSCRIBE MY YT CHANNEL 🙏', url='https://www.youtube.com/channel/UC2_U9WYQaopjXGZ7n9HbN3Q')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
