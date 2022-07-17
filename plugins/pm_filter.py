@@ -444,13 +444,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('AUTO FILTER', callback_data='autofilter'),
             InlineKeyboardButton('CONNECTION', callback_data='coct')
         ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
+            InlineKeyboardButton('🏠 HOME', callback_data='start'),
+            InlineKeyboardButton('VIDEO', callback_data='video'),
             InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/cinemica')
         ], [
-            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
-            InlineKeyboardButton('video', callback_data='video'),
-            InlineKeyboardButton('File-Store', callback_data='malikk')
+            InlineKeyboardButton('YT THUMB', callback_data='ytthumb'),
+            InlineKeyboardButton('URL SHORT', callback_data='urlshort'),
+            InlineKeyboardButton('FILE STORE', callback_data='malikk')
         ], [
             InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
         ]]
