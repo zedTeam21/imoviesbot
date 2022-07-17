@@ -18,18 +18,14 @@ class script(object):
 - <a href=https://t.me/sahid_malik>Sahid malik</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and cinemica will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. movies house 🏠 have admin privillage.
+1. cinemica have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
-<b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - movies house Supports both url and alert inline buttons.
