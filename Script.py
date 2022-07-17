@@ -287,15 +287,13 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 ☀️ Give and Tak Respect</b>.."""
 
-MALIK_PHH = """<b>Hay 👋 {}.... 🌷 ❤️
-
-😎 welcome to Our Group...
-  
-      👉 <s>{}</s> 👈 
-
-😎 You Can Find 🔍 Movies / Series / Animes etc. From Here. Enjoy 😉...
-
-If you have any question then contact us below  👇</b>"""
+MALIK_PHH = """👋🏻 {} Hey Name
+➖➖➖➖➖➖➖
+Thanks For Joining🎉
+➖➖➖➖➖➖➖➖➖
+Good To See You 😊
+➖➖➖➖➖➖➖➖➖
+🍿You Can Find Movies/Series Here.</b>"""
 
 ALURT_FND = """<b>.
 
