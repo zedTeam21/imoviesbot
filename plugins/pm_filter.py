@@ -142,7 +142,7 @@ async def advantage_spoll_choker(bot, query):
                text=(M_NT_FND),
                reply_markup=InlineKeyboardMarkup(
                                       [[
-                                        InlineKeyboardButton('💢 Request to admin 💢', url="https://t.me/m_admins"),
+                                        InlineKeyboardButton('💢 Request 💢', url="https://t.me/cinemica_bot"),
                                                                          
                                       ]]
                ),
@@ -644,8 +644,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "manuelfilter":
         buttons = [[
-            InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help'),
-            InlineKeyboardButton('⏹️ 𝗕𝘂𝘁𝘁𝗼𝗻𝘀 ⏹', callback_data='button')
+            InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -848,12 +847,12 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🌹 𝗣𝗮𝗴𝗲 1/{round(int(total_results) / 10)}", callback_data="pages"),
+            [InlineKeyboardButton(text=f"📄 𝗣𝗮𝗴𝗲 1/{round(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
+            [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
         InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
