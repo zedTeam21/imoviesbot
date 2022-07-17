@@ -440,17 +440,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝗠𝗮𝗻𝘂𝗲𝗹 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data='autofilter'),
-            InlineKeyboardButton('𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀', callback_data='coct')
+            InlineKeyboardButton('MANUAL FILTER', callback_data='manuelfilter'),
+            InlineKeyboardButton('AUTO FILTER', callback_data='autofilter'),
+            InlineKeyboardButton('CONNECTION', callback_data='coct')
         ], [
-            InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='GHHM'),
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 ', callback_data='start'),
-            InlineKeyboardButton(' SONGS ', callback_data='songs')
-        ], [
-            InlineKeyboardButton('♻️ 𝗦𝘁𝗮𝘁𝘀 ♻️', callback_data='stats'),
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('𝚄𝚁𝙻 𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
-            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik')
+            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/cinemica')
         ], [
             InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
             InlineKeyboardButton('video', callback_data='video'),
@@ -466,14 +462,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots'),
+            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/cinemica'),
+            InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
-        ], [
-            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/sahid_malik'),
-            InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik')
         ], [
             InlineKeyboardButton('🚶‍♀ 𝙱𝙰𝙲𝙺 🚶‍♀', callback_data='start')
         ]]
