@@ -107,15 +107,6 @@ ID - <code>{}</code>
 Name - {}
 """
 
-    STARTT_TXT = """<b>Hey {}.
-
-I'm ⚡️ Powerful Auto-Filter Bot...
-😎 You Can Use Me As A Auto-filter in Your Group ....
-Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All, 
-I will Provide Movies There...😎
-
-©️Mantained Bʏ  @cinemica</b>"""
-
     START_TXT = """<b>I'm Cinemica Bot.
 Here you can search Movies & Web Series in inline mode.
 Just press following buttons and start searching.
@@ -307,13 +298,14 @@ ADG = """<b>Hay. {}..\n\nThankyou For Adding Me In.. ❣️
 
 If you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>"""
 
-ADDG = """<b>Hey! {}.
+ADDG = """<b>Hey {}.
 
-Thankyou For Adding Me In ❤️
+I'm ⚡️ Powerful Auto-Filter Bot...
+😎 You Can Use Me As A Auto-filter in Your Group ....
+Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All, 
+I will Provide Movies There...😎
 
-If you have any questions & doubts about using me..
-
-📱Contact :- @Cinemica_supportbot</b>"""
+©️Mantained Bʏ  @cinemica</b>"""
 
 M_NT_FND = """<b>⭕️ This Movie Not Found my Database. Request to admin..\n\n⭕️ Ye movie Hamare database me Available nahi hai Niche admin se request kare... \n\n⭕️ Request to admin.. 👇</b>"""
 
