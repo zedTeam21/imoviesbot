@@ -60,8 +60,6 @@ async def save_group(bot, message):
                                                  caption=(MALIK_PHH.format(u.mention)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
-                                                                           ],[
                                                                            InlineKeyboardButton('♻️ GROUP RULES ♻️', callback_data='group_rules')
                                                                          ]]
                                                  ),
