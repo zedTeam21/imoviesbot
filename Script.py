@@ -287,7 +287,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 ☀️ Give and Tak Respect</b>.."""
 
-MALIK_PHH = """👋🏻 {} Hey Name
+MALIK_PHH = """👋🏻 <b>Hey {}
 ➖➖➖➖➖➖➖
 Thanks For Joining🎉
 ➖➖➖➖➖➖➖➖➖
