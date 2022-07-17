@@ -24,7 +24,7 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/7e56d907542396289fee4.jpg h
 MALIK_PH = environ.get("MALIK_PH", "https://telegra.ph/file/befa0290a2eb14dfe0abe.png")
 SMART_PIC = environ.get("SMART_PIC", "https://telegra.ph/file/6d6b68a763832142fd9f2.jpg")
 VIDEO_VD = environ.get("VIDEO_VD", "https://telegra.ph/file/566ff238e36d9f2425568.mp4")
-PHT = environ.get("PHT", "https://telegra.ph/file/9b77b96a9d2f5dda7764b.jpg")
+PHT = environ.get("PHT", "https://telegra.ph/file/aa0de604ec7834e3d7b51.jpg")
 PHTT = environ.get("PHTT", "https://telegra.ph/file/91b62afcb304705103e64.jpg")
 M_NT_F = environ.get("M_NT_F", "https://telegra.ph/file/b9c8a8240590623ba43ee.jpg")
 
