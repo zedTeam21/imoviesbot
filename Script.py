@@ -107,14 +107,14 @@ ID - <code>{}</code>
 Name - {}
 """
 
-    START_TXT = """<b>Hay {},
+    START_TXT = """<b>Hey {}.
 
 I'm ⚡️ Powerful Auto-Filter Bot...
 😎 You Can Use Me As A Auto-filter in Your Group ....
-Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
-⚠️ More Help Check Help Button Below
+Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All, 
+I will Provide Movies There...😎
 
-©️Mantained Bʏ  @sahid_malik</b>"""
+©️Mantained Bʏ  @cinemica</b>"""
 
     GHHM_TXT = """<b>7k User 💖 Thanks For Your Support...
 
