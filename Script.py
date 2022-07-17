@@ -107,7 +107,7 @@ ID - <code>{}</code>
 Name - {}
 """
 
-    START_TXT = """<b>Hey {}.
+    STARTT_TXT = """<b>Hey {}.
 
 I'm ⚡️ Powerful Auto-Filter Bot...
 😎 You Can Use Me As A Auto-filter in Your Group ....
@@ -115,6 +115,14 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All,
 I will Provide Movies There...😎
 
 ©️Mantained Bʏ  @cinemica</b>"""
+
+    START_TXT = """<b>I'm Cinemica Bot.
+Here you can search Movies & Web Series in inline mode.
+Just press following buttons and start searching.
+➖➖➖➖➖➖➖➖➖➖➖
+😎 You Can Also Use Me As A Auto-filter in Your Group ....
+Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All, I will Provide Movies There...😎
+©️Maintained By  @cinemica</b>"""
 
     GHHM_TXT = """<b>7k User 💖 Thanks For Your Support...
 
@@ -149,7 +157,7 @@ I will Provide Movies There...😎
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/sahid_malik><b>sahid malik</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=https://t.me/cinemica><b>cinemica</b></a> ᚛━━━━━━━━━━━━"""
     DINETTE_TXT =  """<b>Donation</b>
 
    <b>Developer is Super Noob..  Just Learning from Official Docs..  Please Donate the developer for Keeping the Service Alive...</b>
@@ -165,7 +173,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/sahid_malik><b>sahid malik</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=https://t.me/cinemica><b>cinemica</b></a> ᚛━━━━━━━━━━━━"""
 
 
     URLSHORT_TXT = """<b>➤ 𝐇𝐞𝐥𝐩: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
@@ -248,21 +256,13 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/sahid_nalik>Sahid malik</a></b>"""
 
-    FORCESUB_TXT = """⚠️ Join our updated channel below.  bot will not give you movie until you join from our update channel...
-
-⚠️ கீழே உள்ள எங்கள் புதுப்பிக்கப்பட்ட சேனலில் சேரவும்.  எங்கள் புதுப்பிப்பு சேனலில் நீங்கள் சேரும் வரை போட் உங்களுக்கு திரைப்படத்தை வழங்காது... 
-
-⚠️ ਹੇਠਾਂ ਸਾਡੇ ਅਪਡੇਟ ਕੀਤੇ ਚੈਨਲ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।  ਬੋਟ ਤੁਹਾਨੂੰ ਉਦੋਂ ਤੱਕ ਮੂਵੀ ਨਹੀਂ ਦੇਵੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਸਾਡੇ ਅਪਡੇਟ ਚੈਨਲ ਤੋਂ ਸ਼ਾਮਲ ਨਹੀਂ ਹੋ ਜਾਂਦੇ...
-
-⚠️ ചുവടെയുള്ള ഞങ്ങളുടെ അപ്‌ഡേറ്റ് ചെയ്‌ത ചാനലിൽ ചേരുക.  ഞങ്ങളുടെ അപ്‌ഡേറ്റ് ചാനലിൽ നിന്ന് നിങ്ങൾ ചേരുന്നത് വരെ ബോട്ട് നിങ്ങൾക്ക് സിനിമ നൽകില്ല....
-
-⚠️ हमारे निचे दिए गये update चैनल को join करे जब तक आप हमारे update चैनल को join नहीं करेंगे तब तक bot आपको मूवी नहीं देगा...👇👇 join new 👇👇"""
+    FORCESUB_TXT = """⚠️ Please Join My Channel to use this Bot!"""
 
     OWNER_TXT = """<b>>━━━━᚜ Owner Details ᚛━━━━<
     
 ⭕️ FULL NAME : Sahid malik
 ⭕️ USERNAME: @sahid_malik
-⭕️PERMANENT DM LINK : <a href=https://t.me/sahid_malik>CLICK Here</a></b>"""
+⭕️PERMANENT DM LINK : <a href=https://t.me/cinemica>CLICK Here</a></b>"""
 
     GROUP_R_TXT = """<b>GROUP RULES
 
@@ -285,7 +285,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 
 ☀️Don't Request Any Things Other Than Movie Series Animes.
 
-☀️ Give and Tak Respect</b>.."""
+☀️ Give and Take Respect</b>.."""
 
 MALIK_PHH = """👋🏻 <b>Hey {}
 ➖➖➖➖➖➖➖
@@ -307,14 +307,13 @@ ADG = """<b>Hay. {}..\n\nThankyou For Adding Me In.. ❣️
 
 If you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>"""
 
-ADDG = """<b>Hay {},
+ADDG = """<b>Hey! {}.
 
-I'm ⚡️ Powerful Auto-Filter Bot...
-😎 You Can Use Me As A Auto-filter in Your Group ....
-Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...😎
-⚠️ More Help Check Help Button Below
+Thankyou For Adding Me In ❤️
 
-©️Mantained Bʏ  @sahid_malik</b>"""
+If you have any questions & doubts about using me..
+
+📱Contact :- @Cinemica_supportbot</b>"""
 
 M_NT_FND = """<b>⭕️ This Movie Not Found my Database. Request to admin..\n\n⭕️ Ye movie Hamare database me Available nahi hai Niche admin se request kare... \n\n⭕️ Request to admin.. 👇</b>"""
 
