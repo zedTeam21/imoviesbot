@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(' HELP ', callback_data='help'),
             InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
             ],[
-            InlineKeyboardButton('Search INLINE', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('SEARCH INLINE', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ DONATION ❤️', callback_data='dinette')
             ],[
             InlineKeyboardButton('🔗 URL SHORTER 🔗', callback_data='urlshortn')
