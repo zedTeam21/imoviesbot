@@ -288,12 +288,13 @@ CHECK YOUR MOVIE ON THE GIVEN LIST AND SELECT YOUR MOVIE..
 
 दी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें</b> 👇👇👇"""
 
-ADG = """<b>Hay. {}..\n\nThankyou For Adding Me In.. ❣️
+ADG = """Hey! {}..
 
-             👉 <s>{}</s> 👈 
+Thankyou For Adding Me In ❤️
 
-If you have any questions & doubts about using me..\n\n Contact my Owner >> @sahid_malik</b>"""
+If you have any questions & doubts about using me..
 
+📱Contact :- @Cinemica_supportbot</b>"""
 ADDG = """<b>Hey {}.
 
 I'm ⚡️ Powerful Auto-Filter Bot...
