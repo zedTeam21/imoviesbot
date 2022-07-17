@@ -38,9 +38,8 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('💎 Updates 💎', url='https://t.me/m_house786')
-        ],[InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots')]]
-        reply_markup=InlineKeyboardMarkup(buttons)
+            InlineKeyboardButton('💎 Updates 💎', url='https://t.me/cinemica')
+        reply_markup=InlineKeyboardMarkup(buttons)]]
         await message.reply_photo(
             photo=(PHT),
             caption=(ADG.format(message.from_user.mention, message.chat.title)),
