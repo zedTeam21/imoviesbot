@@ -49,7 +49,7 @@ def song(client, message):
         open(thumb_name, 'wb').write(thumb.content)
 
 
-        performer = f"[movies 🏠 bot]" 
+        performer = f"Cinemica" 
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
@@ -60,13 +60,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("**Dσwnlσαdíng Your ѕσng plz wait 3 minutes...!**")
+    m.edit("**Dσwnlσαdíng Your ѕσng plz wait a minute...!**")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [Movies 🏠](https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [Movies 🏠](https://t.me/sahid_malik)**'
+        rep = '**POWERED BY ›› @cinemica**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
