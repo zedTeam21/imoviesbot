@@ -51,7 +51,7 @@ async def start(client, message):
             InlineKeyboardButton('ADD ME TO THE GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('CHANNELS', url='https://t.me/iMoviesRobot_channel'),
-            InlineKeyboardButton('GROUP', url='https://t.me/+s1gGsUArkhIxNjM9')
+            InlineKeyboardButton('GROUP', url='https://t.me/+icgzLoxWWgdhOTZl')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
             InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
@@ -101,7 +101,7 @@ async def start(client, message):
             InlineKeyboardButton('ADD ME TO THE GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('CHANNELS', url='https://t.me/iMoviesRobot_channel'),
-            InlineKeyboardButton('GROUP', url='https://t.me/+s1gGsUArkhIxNjM9')
+            InlineKeyboardButton('GROUP', url='https://t.me/+icgzLoxWWgdhOTZl')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
             InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
@@ -265,7 +265,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/+s1gGsUArkhIxNjM9")
+                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/+icgzLoxWWgdhOTZl")
                 ]
             ]
         )
