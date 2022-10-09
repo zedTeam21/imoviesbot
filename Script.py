@@ -111,7 +111,7 @@ Just press following buttons and start searching.
 😎 You Can Also Use Me As A Auto-filter in Your Group ....
 Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All, I will Provide Movies There...😎
 
-©️Maintained By  @cinemica</b>"""
+©️Maintained By  @server_z </b>"""
 
     GHHM_TXT = """<b>7k User 💖 Thanks For Your Support...
 
@@ -146,7 +146,7 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All, I will Provi
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/cinemica><b>cinemica</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=http://t.me/Xcybersecurity_bot><b>Contact us</b></a> ᚛━━━━━━━━━━━━"""
     DINETTE_TXT =  """<b>Donation</b>
 
    <b>Developer is Super Noob..  Just Learning from Official Docs..  Please Donate the developer for Keeping the Service Alive...</b>
@@ -162,7 +162,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 ✮ 𝗣𝗮𝘆𝗣𝗮𝗹
 
 _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/cinemica><b>cinemica</b></a> ᚛━━━━━━━━━━━━"""
+━━━━━━━━━━━━᚜ <a href=http://t.me/Xcybersecurity_bot><b>Contact us</b></a>  ᚛━━━━━━━━━━━━"""
 
 
     URLSHORT_TXT = """<b>➤ 𝐇𝐞𝐥𝐩: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
@@ -294,7 +294,7 @@ Thankyou For Adding Me In ❤️
 
 If you have any questions & doubts about using me..
 
-📱Contact :- @Cinemica_supportbot</b>"""
+📱Contact :- @Xcybersecurity_bot</b>"""
 ADDG = """<b>Hey {}.
 
 I'm ⚡️ Powerful Auto-Filter Bot...
@@ -302,7 +302,7 @@ I'm ⚡️ Powerful Auto-Filter Bot...
 Its Easy To Use Me; Just Add Me To Your Group As Admin, That's All, 
 I will Provide Movies There...😎
 
-©️Mantained Bʏ  @cinemica</b>"""
+©️Mantained Bʏ  @server_z</b>"""
 
 M_NT_FND = """<b>⭕️ This Movie Not Found my Database. Request to admin..\n\n⭕️ Ye movie Hamare database me Available nahi hai Niche admin se request kare... \n\n⭕️ Request to admin.. 👇</b>"""
 
