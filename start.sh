@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Techwrdd/cinemicabot.git /cinemicabot
+  git clone https://github.com/zedTeam21/imoviesbot.git /imoviesbot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /cinemicabot
+  git clone $UPSTREAM_REPO /imoviesbot
 fi
 cd /cinemicabot
 pip3 install -U -r requirements.txt
