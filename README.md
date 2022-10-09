@@ -48,7 +48,7 @@ You can deploy this bot anywhere.
 <p>
 <br>
 
-<a href="https://heroku.com/deploy?template=https://github.com/Techwrdd/cinemicabot">
+<a href="https://heroku.com/deploy?template=https://github.com/zedTeam21/imoviesbot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
