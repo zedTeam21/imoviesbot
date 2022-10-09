@@ -419,7 +419,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ADD ME TO THE GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('CHANNELS', url='https://t.me/iMoviesRobot_channel'),
-            InlineKeyboardButton('GROUP', url='https://t.me/+s1gGsUArkhIxNjM9')
+            InlineKeyboardButton('GROUP', url='https://t.me/+icgzLoxWWgdhOTZl')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
             InlineKeyboardButton('REQUEST', url='http://t.me/RequestiMoviesBot')
