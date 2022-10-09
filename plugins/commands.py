@@ -54,7 +54,7 @@ async def start(client, message):
             InlineKeyboardButton('GROUP', url='https://t.me/+icgzLoxWWgdhOTZl')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
-            InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
+            InlineKeyboardButton('REQUEST', url='http://t.me/RequestiMoviesBot')
             ],[
             InlineKeyboardButton('SEARCH INLINE', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ DONATION ❤️', callback_data='dinette')
@@ -104,7 +104,7 @@ async def start(client, message):
             InlineKeyboardButton('GROUP', url='https://t.me/+icgzLoxWWgdhOTZl')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
-            InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
+            InlineKeyboardButton('REQUEST', url='http://t.me/RequestiMoviesBot')
             ],[
             InlineKeyboardButton('SEARCH INLINE', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ DONATION ❤️', callback_data='dinette')
