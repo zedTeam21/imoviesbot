@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],
             [
-                InlineKeyboardButton('♻️ Updates Channel ♻️', url='https://t.me/cinemica')
+                InlineKeyboardButton('♻️ Updates Channel ♻️', url='https://t.me/iMoviesRobot_channel')
             ],
             [
                 InlineKeyboardButton('Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,8 +50,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ADD ME TO THE GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('CHANNELS', url='https://t.me/cinemica'),
-            InlineKeyboardButton('GROUP', url='https://t.me/+Spzsxjag4AEwN2U1')
+            InlineKeyboardButton('CHANNELS', url='https://t.me/iMoviesRobot_channel'),
+            InlineKeyboardButton('GROUP', url='https://t.me/+s1gGsUArkhIxNjM9')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
             InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
@@ -61,7 +61,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔗 URL SHORTER 🔗', callback_data='urlshortn')
             ],[
-            InlineKeyboardButton('SUBSCRIBE MY YT CHANNELS ', url='https://www.youtube.com/channel/UC2_U9WYQaopjXGZ7n9HbN3Q')
+            InlineKeyboardButton('SUBSCRIBE MY YT CHANNELS ', url='http://youtube.com/zEdHacKs')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -100,8 +100,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ADD ME TO THE GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('CHANNELS', url='https://t.me/cinemica'),
-            InlineKeyboardButton('GROUP', url='https://t.me/+Spzsxjag4AEwN2U1')
+            InlineKeyboardButton('CHANNELS', url='https://t.me/iMoviesRobot_channel'),
+            InlineKeyboardButton('GROUP', url='https://t.me/+s1gGsUArkhIxNjM9')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
             InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
@@ -111,7 +111,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔗 URL SHORTER 🔗', callback_data='urlshortn')
             ],[
-            InlineKeyboardButton('SUBSCRIBE MY YT CHANNELS ', url='https://www.youtube.com/channel/UC2_U9WYQaopjXGZ7n9HbN3Q')
+            InlineKeyboardButton('SUBSCRIBE MY YT CHANNELS ', url='http://youtube.com/zEdHacKs')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -265,7 +265,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/+Spzsxjag4AEwN2U1")
+                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/+s1gGsUArkhIxNjM9")
                 ]
             ]
         )
