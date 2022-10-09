@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 SUBSCRIBE MY YT CHANNEL 🙏', url='https://www.youtube.com/channel/UC2_U9WYQaopjXGZ7n9HbN3Q')
+        InlineKeyboardButton('🙏 SUBSCRIBE MY YT CHANNEL 🙏', url='http://youtube.com/zEdHacKs')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -142,7 +142,7 @@ async def advantage_spoll_choker(bot, query):
                text=(M_NT_FND),
                reply_markup=InlineKeyboardMarkup(
                                       [[
-                                        InlineKeyboardButton('💢 Request 💢', url="https://t.me/cinemica_bot"),
+                                        InlineKeyboardButton('💢 Request 💢', url="http://t.me/RequestiMoviesBot"),
                                                                          
                                       ]]
                ),
@@ -418,18 +418,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ADD ME TO THE GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('CHANNELS', url='https://t.me/cinemica'),
-            InlineKeyboardButton('GROUP', url='https://t.me/+Spzsxjag4AEwN2U1')
+            InlineKeyboardButton('CHANNELS', url='https://t.me/iMoviesRobot_channel'),
+            InlineKeyboardButton('GROUP', url='https://t.me/+s1gGsUArkhIxNjM9')
             ],[
             InlineKeyboardButton(' HELP ', callback_data='help'),
-            InlineKeyboardButton('REQUEST', url='https://t.me/cinemica_bot')
+            InlineKeyboardButton('REQUEST', url='http://t.me/RequestiMoviesBot')
             ],[
             InlineKeyboardButton('SEARCH INLINE', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ DONATION ❤️', callback_data='dinette')
             ],[
             InlineKeyboardButton('🔗 URL SHORTER 🔗', callback_data='urlshortn')
             ],[
-            InlineKeyboardButton('SUBSCRIBE MY YT CHANNELS ', url='https://www.youtube.com/channel/UC2_U9WYQaopjXGZ7n9HbN3Q')
+            InlineKeyboardButton('SUBSCRIBE MY YT CHANNELS ', url='http://youtube.com/zEdHacKs')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -446,7 +446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('🏠 HOME', callback_data='start'),
             InlineKeyboardButton('VIDEO', callback_data='video'),
-            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/cinemica')
+            InlineKeyboardButton(' 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/iMoviesRobot_channel')
         ], [
             InlineKeyboardButton('YT THUMB', callback_data='ytthumb'),
             InlineKeyboardButton('URL SHORT', callback_data='urlshort'),
@@ -462,7 +462,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/cinemica'),
+            InlineKeyboardButton('📞 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/iMoviesRobot_channel'),
             InlineKeyboardButton('❤️ Donation ❤️', callback_data='malik'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
@@ -479,7 +479,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "GHHM":
         buttons = [[
-            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots'),
+            InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/server_z'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮 𝗠𝗼𝗱𝗲𝘀', callback_data='extra'),
             InlineKeyboardButton('𝗘𝘅𝘁𝗿𝗮', callback_data='mbbumm')
         ], [
@@ -550,7 +550,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='start'),
-            InlineKeyboardButton('❗️ CONTACT ❗️', url='https://t.me/sahid_malik')
+            InlineKeyboardButton('❗️ CONTACT ❗️', url='http://t.me/Xcybersecurity_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -846,7 +846,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 SUBSCRIBE MY YT CHANNEL 🙏', url='https://www.youtube.com/channel/UC2_U9WYQaopjXGZ7n9HbN3Q')
+        InlineKeyboardButton('🙏 SUBSCRIBE MY YT CHANNEL 🙏', url='http://youtube.com/zEdHacKs')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
