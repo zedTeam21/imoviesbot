@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Techwrdd/cinemicabot",
-    "repository": "https://github.com/Techwrdd/cinemicabot",
+    "website": "https://github.com/zedTeam21/imoviesbot",
+    "repository": "https://github.com/zedTeam21/imoviesbot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
