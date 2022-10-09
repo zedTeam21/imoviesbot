@@ -102,9 +102,9 @@ ID - <code>{}</code>
 Name - {}
 """
 
-    START_TXT = """<b>Hay {}
+    START_TXT = """<b>Hey {}
 
-I'm Cinemica Bot.
+I'm ImoviesRobot.
 Here you can search Movies & Web Series in inline mode.
 Just press following buttons and start searching.
 ➖➖➖➖➖➖➖➖➖➖➖
